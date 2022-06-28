@@ -1,7 +1,11 @@
+package TrabalhoM3;
+
+import TrabalhoM3.Jogador;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class JogadorGoleiro extends Jogador{
+public class JogadorGoleiro extends Jogador {
     private int reflexos;
     private int altura;
     private int notaAltura;

@@ -1,3 +1,5 @@
+package TrabalhoM3;
+
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -75,7 +77,7 @@ public class Jogador {
 
     @Override
     public String toString() {
-        return "Jogador{" +
+        return "TrabalhoM3.Jogador{" +
                 "posição='" + getPosicao() + '\'' +
                 ", nome='" + getNome() + '\'' +
                 ", numeroCamisa=" + getNumeroCamisa() +

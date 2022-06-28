@@ -1,3 +1,10 @@
+package TrabalhoM3;
+
+import TrabalhoM3.CampeonatoRepositorio;
+import TrabalhoM3.JogadorAtacante;
+import TrabalhoM3.JogadorDefesa;
+import TrabalhoM3.JogadorGoleiro;
+
 import java.time.LocalDate;
 
 public class Main {
@@ -112,7 +119,7 @@ public class Main {
         LocalDate dataPartida1 = LocalDate.of(2015, 5, 1);
         Partida partida1 = new Partida(dataPartida1, time1, time2);
         partida1.geraPlacarPartida();
-        System.out.println("Partida  1 : " + partida1.getPlacar());
+        System.out.println("TrabalhoM3.Partida  1 : " + partida1.getPlacar());
 
         CampeonatoRepositorio.mostraTabela();
         time1.mostraJogadores();
@@ -139,7 +146,7 @@ public class Main {
         LocalDate dataPartida2 = LocalDate.of(2015, 5, 3);
         Partida partida2 = new Partida(dataPartida2, time1, time2);
         partida2.geraPlacarPartida();
-        System.out.println("\nPartida  2 : " + partida2.getPlacar());
+        System.out.println("\nTrabalhoM3.Partida  2 : " + partida2.getPlacar());
 
         CampeonatoRepositorio.mostraTabela();
 

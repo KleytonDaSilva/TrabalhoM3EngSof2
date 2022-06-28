@@ -1,4 +1,8 @@
-public class JogadorAtacante extends Jogador{
+package TrabalhoM3;
+
+import TrabalhoM3.Jogador;
+
+public class JogadorAtacante extends Jogador {
     private int velocidade;
     private int tecnica;
 

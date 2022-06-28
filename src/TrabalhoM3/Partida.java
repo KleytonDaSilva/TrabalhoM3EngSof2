@@ -1,3 +1,5 @@
+package TrabalhoM3;
+
 import java.time.LocalDate;
 import java.util.Random;
 
@@ -11,8 +13,8 @@ public class Partida {
     private String golsJogadoresTimeVisitante = "Gols time Visitante: " ;
 
     public Partida(LocalDate data, Time timeCasa, Time timeVisitante) {
-        //Validacao.validaJogadoresParaPartida(timeCasa);
-        //Validacao.validaJogadoresParaPartida(timeVisitante);
+        //TrabalhoM3.Validacao.validaJogadoresParaPartida(timeCasa);
+        //TrabalhoM3.Validacao.validaJogadoresParaPartida(timeVisitante);
         this.data = data;
         this. timeCasa = timeCasa;
         this.timeVisitante = timeVisitante;
@@ -115,8 +117,8 @@ public class Partida {
     }
 
     public String getPlacar() {
-        return "\nTime Casa : " + timeCasa.getNome() + " |" + golsTimeCasa +
-                " x " + golsTimeVisitante + "| " + "Time Visitante : " + timeVisitante.getNome()
+        return "\nTrabalhoM3.Time Casa : " + timeCasa.getNome() + " |" + golsTimeCasa +
+                " x " + golsTimeVisitante + "| " + "TrabalhoM3.Time Visitante : " + timeVisitante.getNome()
                 + "\n" + golsJogadoresTimeCasa + "\n" + golsJogadoresTimeVisitante;
 
     }

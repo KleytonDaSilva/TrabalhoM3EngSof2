@@ -1,3 +1,5 @@
+package TrabalhoM3;
+
 import java.util.ArrayList;
 
 public class CampeonatoRepositorio {
@@ -28,7 +30,7 @@ public class CampeonatoRepositorio {
         System.out.println("\n***Mostrando a tabela do Campeonato***");
         //Collections.sort(times);
         for (int i = 0; i < times.size(); i++) {
-            System.out.print("Time: " + times.get(i).getNome() + " | ");
+            System.out.print("TrabalhoM3.Time: " + times.get(i).getNome() + " | ");
             System.out.print("Pontuação: " + times.get(i).getPontuacao() + " | ");
             System.out.print("Vitorias: " + times.get(i).getVitorias() + " | ");
             System.out.print("Empates: " + times.get(i).getEmpates() + " | ");

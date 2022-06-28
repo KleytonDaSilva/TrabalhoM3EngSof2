@@ -1,3 +1,5 @@
+package TrabalhoM3;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 public class Validacao {
@@ -58,9 +60,9 @@ public class Validacao {
 
 
     /*
-    public static void validaJogadoresParaPartida(Time time){
+    public static void validaJogadoresParaPartida(TrabalhoM3.Time time){
         if(time.getQuantidadeJogadores() < 5){
-            System.out.println("Partida não liberada, pois o Time "+ time.getNome() + " possui menos de 5 jogadores!");
+            System.out.println("TrabalhoM3.Partida não liberada, pois o TrabalhoM3.Time "+ time.getNome() + " possui menos de 5 jogadores!");
             System.exit(0);
         }
     }

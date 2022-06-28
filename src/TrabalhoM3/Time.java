@@ -1,5 +1,7 @@
+package TrabalhoM3;
+
 import java.util.ArrayList;
-import java.util.Comparator;
+
 public class Time implements Comparable <Time>{
     private String nome;
     private ArrayList<Jogador> jogadores;
@@ -148,7 +150,7 @@ public class Time implements Comparable <Time>{
                 }
                 if (jogadorValido) {
                     this.jogadores.add(jogador);
-                    System.out.println("Jogador "+ jogador.getPosicao() +  " foi adicionado no time com sucesso!");
+                    System.out.println("TrabalhoM3.Jogador "+ jogador.getPosicao() +  " foi adicionado no time com sucesso!");
                 }
                 contadorJogadores++;
             } else if (contadorJogadores >= 5) {
@@ -185,7 +187,7 @@ public class Time implements Comparable <Time>{
                 }
             }
         }else{
-            System.out.println("Jogador informado não encontrado!");
+            System.out.println("TrabalhoM3.Jogador informado não encontrado!");
         }
     }
 
@@ -195,7 +197,7 @@ public class Time implements Comparable <Time>{
 
     @Override
     public String toString() {
-        return "Time{" +
+        return "TrabalhoM3.Time{" +
                 "nome='" + nome + '\'' +
                 ", vitorias=" + vitorias +
                 ", empates=" + empates +
